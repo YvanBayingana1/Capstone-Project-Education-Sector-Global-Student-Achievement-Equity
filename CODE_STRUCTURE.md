@@ -59,3 +59,15 @@ merged = harmonize_variables(pisa, timss)
 gaps = compute_means_gaps(merged, subject="pv_creative")
 models = run_multilevel_model(merged, subject="pv_math")
 plot_by_subgroup(merged, subject="pv_science", subgroup="escs_quintile", output_path="figs/science_by_ses.png")
+
+---
+
+## `LICENSE`
+
+```text
+MIT License
+
+Copyright (c) 2025 Yvan Bayingana
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (...)
