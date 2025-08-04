@@ -1,0 +1,88 @@
+Yvan Bayingana. (2025). *Global Learning Equity, Creative Thinking & Achievement*. GitHub repository, https://github.com/YOUR‑USERNAME/YOUR‑REPO
+
+---
+
+## `PROJECT_PROPOSAL.md`
+
+```markdown
+# Capstone Project Proposal  
+**Title:** Global Learning Equity, Creative Thinking & Achievement  
+**Author:** Yvan Bayingana  
+**Sector:** Education
+
+---
+
+## 1. Problem Description
+
+Despite steady global improvements in academic scores, **equity gaps—by socio‑economic status and gender—remain** across school systems._PISA 2022 introduced a creative thinking assessment and documented disparities by SES and gender; TIMSS 2023 similarly underscored growing gender differences and home‑resource gaps. :contentReference[oaicite:12]{index=12}
+
+This capstone seeks to analyze how academic performance (math, science, reading) and creative thinking vary by these dimensions in **64 global systems**.
+
+---
+
+## 2. Research Questions & Objectives
+
+### RQ1: How do mean scores vary by gender and SES across countries?
+- **Obj 1a:** Calculate country-level averages and gap estimates
+- **Obj 1b:** Visualise score distributions by subgroup (violin/boxplots)
+
+### RQ2: How do home, school, and teacher resources predict performance?
+- **Obj 2a:** Fit multilevel regression models
+- **Obj 2b:** Rank variables by predictive strength (e.g. home books, teacher degree)
+
+### RQ3: Which systems pair high achievement with narrow equity gaps?
+- **Obj 3a:** Perform cluster analysis on countries based on equity-performance profiles
+- **Obj 3b:** Use dashboards to explore these profiles interactively
+
+---
+
+## 3. Data & Methodology
+
+- **PISA 2022** (public use): includes scores in creative thinking and core domains with SES and gender data. :contentReference[oaicite:13]{index=13}  
+- **TIMSS 2023** (public use): includes Grades 4 & 8 math and science scores, plus student, parent, teacher and school questionnaires. :contentReference[oaicite:14]{index=14}
+
+### Key Steps:
+1. Convert SAS/SPSS files to CSV using Python scripts  
+2. Average plausible values and standardise ESCS or home-resource indexes  
+3. Respect weighting, stratification, and replicate rules for both PISA and TIMSS  
+4. Harmonise variable definitions (e.g. gender, SES quintiles) across datasets  
+5. Apply multilevel models and clustering on aggregated country profiles
+
+---
+
+## 4. Expected Deliverables
+
+- Cleaned, harmonized PISA + TIMSS datasets  
+- Jupyter notebooks for initial exploration and regression analysis  
+- Interactive Power BI Power BI dashboards (.pbix and data exports)  
+- Written report interpreting results within educational equity frameworks  
+- Final GitHub repository with full documentation and visual assets
+
+---
+
+## 5. Timeline
+
+| Weeks     | Activities                                 |
+|-----------|--------------------------------------------|
+| 1–2       | Literature review & data acquisition       |
+| 3–4       | Cleaning, variable alignment & weighting   |
+| 5–6       | Descriptive analysis & gap visualisation   |
+| 7–8       | Modeling and cluster analysis              |
+| 9–10      | Dashboard construction                     |
+| Final     | Summary report writing & repo finalisation |
+
+---
+
+## 6. Limitations & Ethical Considerations
+
+- Cross-sectional design does not allow causal inference  
+- Sub-national benchmarking systems (e.g. Hong Kong, Quebec) may be excluded as needed  
+- All datasets are anonymised; ensure privacy and data sensitivity are respected
+
+---
+
+## 7. Resources & Data Access
+
+- Public-use PISA 2022 (OECD) and TIMSS 2023 (IEA) files are freely available  
+- Optional: use cloud computing for intense regression analysis  
+- Power BI Desktop is free; organizational license may be required for sharing dashboards
